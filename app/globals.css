@@ -17,6 +17,8 @@
 }
 
 body {
+  scroll-behavior: smooth;
+  @apply transition-all duration-500;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -33,5 +35,5 @@ body {
 }
 
 .slow {
-  @apply transition-all duration-500;
+  @apply transition-all duration-500 ease-out;
 }
