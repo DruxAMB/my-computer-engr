@@ -96,27 +96,27 @@ export default function NavBar() {
               transition={{ duration: 1, ease: "easeInOut" }}
             >
               <a href="#"></a>
-              <li className="slow hover:text-blue-800">
+              <li className="slow hover:text-blue-800 text-lg">
                 <a className="slow font-thin hover:underline" href="#">
                   HOME
                 </a>
               </li>
-              <li className="slow hover:text-blue-800">
+              <li className="slow hover:text-blue-800 text-lg">
                 <a className="slow font-thin hover:underline" href="#SERVICES">
                   SERVICES
                 </a>
               </li>
-              <li className="slow hover:text-blue-800">
+              <li className="slow hover:text-blue-800 text-lg">
                 <a className="slow font-thin hover:underline" href="#ABOUT">
                   ABOUT
                 </a>
               </li>
-              <li className="slow hover:text-blue-800">
+              <li className="slow hover:text-blue-800 text-lg">
                 <a className="slow font-thin hover:underline" href="#WHYUS">
                   WHY US?
                 </a>
               </li>
-              <li className="slow hover:text-blue-800">
+              <li className="slow hover:text-blue-800 text-lg">
                 <a className="slow font-thin hover:underline" href="#CONTACTUS">
                   CONTACT US
                 </a>
