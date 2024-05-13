@@ -11,7 +11,7 @@ export default function SelectDevice() {
         <Image src="/icons/star.svg" alt="star" width={20} height={20} />
       </div>
       <h1 className="text-center my-3 mx-auto text-2xl md:text-4xl font-bold lg:w-[500px]">
-        Top-Quality Repairs for Computer, Laptops, Phones
+        Top-Quality Repair for Computer, Laptops, Phones
       </h1>
       <Card />
     </div>

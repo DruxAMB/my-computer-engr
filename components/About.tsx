@@ -24,8 +24,7 @@ export default function About() {
           Empowering Your Devices: Crafting Solutions
         </h1>
         <p>
-          Welcome to Fixo, where technology meets expertise. With a passion for
-          problem-solving and a dedication to exceptional service
+          SAFETY IS HERE: Genuine, warrantied replacement parts
         </p>
         <div className="grid grid-cols-2 gap-4">
           <div className="flex gap-2 items-center">
@@ -70,10 +69,8 @@ export default function About() {
           </div>
         </div>
         <p className="font-thin">
-          Our mission is to provide reliable, efficient, and affordable repair
-          services, ensuring that your devices are restored to optimal
-          functionality. We understand the vital role technology plays in your
-          daily life, and we are committed to keeping you connected.
+          We perform thorough quality checks before laptops and smartphones are returned.
+          Fast, efficient repairs to minimize downtime. Swift mobile service, facilitated with bikes for quick delivery of repair services to your office or home. Please <span className=" font-bold"><a href="https://wa.me/+2349031832073"> GET A SCHEDULE</a></span> today to learn more, thank you :)....
         </p>
       </div>
     </div>

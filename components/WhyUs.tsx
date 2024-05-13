@@ -16,7 +16,7 @@ export default function WhyUs() {
           </div>
 
           <div className="slow m-auto lg:m-0 w-fit h-fit shadow-md rounded-xl border text-white p-2 hover:bg-blue-800 hover:border-blue-800">
-            <a href="#">GET A SCHEDULE</a>
+            <a href="https://wa.me/+2349031832073">GET A SCHEDULE</a>
           </div>
         </div>
 
@@ -32,8 +32,8 @@ export default function WhyUs() {
             <div className="lg:w-72">
               <h1 className="font-bold text-lg text">Fast Delivery</h1>
               <p className=" font-thin">
-                I cant thank Stada enough for saving my computer! Their team
-                worked tirelessly to recover my files and fix the software.
+                Fast repair requiring additional attention, a guaranteed 24-hour
+                turnaround ensures devices are returned promptly
               </p>
             </div>
           </div>
@@ -48,8 +48,8 @@ export default function WhyUs() {
             <div className="lg:w-72">
               <h1 className="font-bold text-lg text">Free Diagnotics</h1>
               <p className=" font-thin">
-                I cant thank Stada enough for saving my computer! Their team
-                worked tirelessly to recover my files and fix the software.
+                We prioritize your data protection, ensuring all repairs are
+                conducted with the utmost security and privacy
               </p>
             </div>
           </div>

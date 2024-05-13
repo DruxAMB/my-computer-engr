@@ -38,7 +38,25 @@ export default function Footer() {
           <div className="grid w-fit">
             <p>Follow us on:</p>
             <div className="flex gap-2">
-              <a href="">
+              <a href="https://wa.me/+2349031832073">
+                <Image
+                  src="/icons/whatsApp.svg"
+                  alt="social"
+                  height={30}
+                  width={30}
+                  className="p-2 bg-[#ffffff34] slow rounded-full hover:bg-orange-400"
+                />
+              </a>
+              <a href="https://facebook.com/myComputerEngr">
+                <Image
+                  src="/icons/facebook.svg"
+                  alt="social"
+                  height={35}
+                  width={35}
+                  className="p-2 px-3 bg-[#ffffff34] slow rounded-full hover:bg-orange-400"
+                />
+              </a>
+              <a href="https://instagram.com/myComputerEngr">
                 <Image
                   src="/icons/instagram.svg"
                   alt="social"
@@ -47,27 +65,9 @@ export default function Footer() {
                   className="p-2 bg-[#ffffff34] slow rounded-full hover:bg-orange-400"
                 />
               </a>
-              <a href="">
+              <a href="https://twitter.com/myComputerEngr">
                 <Image
-                  src="/icons/instagram.svg"
-                  alt="social"
-                  height={30}
-                  width={30}
-                  className="p-2 bg-[#ffffff34] slow rounded-full hover:bg-orange-400"
-                />
-              </a>
-              <a href="">
-                <Image
-                  src="/icons/instagram.svg"
-                  alt="social"
-                  height={30}
-                  width={30}
-                  className="p-2 bg-[#ffffff34] slow rounded-full hover:bg-orange-400"
-                />
-              </a>
-              <a href="">
-                <Image
-                  src="/icons/instagram.svg"
+                  src="/icons/twitter.svg"
                   alt="social"
                   height={30}
                   width={30}

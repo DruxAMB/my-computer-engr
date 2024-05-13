@@ -13,12 +13,11 @@ export default function Card() {
           className="w-full"
         />
         <p className="font-thin">
-          Our technicians are highly skilled and stay up-to-date with the latest
-          technologies to provide you with the best solutions.
+          We prioritize your data protection, ensuring all repairs are conducted with the utmost security and privacy
         </p>
 
         <div className="slow border rounded-xl bg-blue-800 hover:bg-orange-400 text-white p-2 w-fit">
-          <a href="#">REPAIR NOW</a>
+          <a href="https://wa.me/+2349031832073">REPAIR NOW</a>
         </div>
       </div>
       <div className="slow hover:bg-orange-50 cursor-pointer hover:mb-5 grid gap-3 border border-orange-200 hover:border-orange-400 rounded-xl p-3 shadow-lg">
@@ -36,7 +35,7 @@ export default function Card() {
         </p>
 
         <div className="slow border rounded-xl bg-blue-800 hover:bg-orange-400 text-white p-2 w-fit">
-          <a href="#">REPAIR NOW</a>
+          <a href="https://wa.me/+2349031832073">REPAIR NOW</a>
         </div>
       </div>
       <div className="slow hover:bg-orange-50 cursor-pointer hover:mb-5 grid gap-3 border border-orange-200 hover:border-orange-400 rounded-xl p-3 shadow-lg">
@@ -49,12 +48,11 @@ export default function Card() {
           className="w-full"
         />
         <p className="font-thin">
-          Our technicians are highly skilled and stay up-to-date with the latest
-          technologies to provide you with the best solutions.
+          Fast repair requiring additional attention, a guaranteed 24-hour turnaround ensures devices are returned promptly
         </p>
 
         <div className="slow border rounded-xl bg-blue-800 hover:bg-orange-400 text-white p-2 w-fit">
-          <a href="#">REPAIR NOW</a>
+          <a href="https://wa.me/+2349031832073">REPAIR NOW</a>
         </div>
       </div>
     </div>

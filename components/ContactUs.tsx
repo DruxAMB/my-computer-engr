@@ -72,7 +72,7 @@ export default function ContactUs() {
         </div>
 
         <div className="slow w-fit shadow-md rounded-xl bg-blue-800 text-white p-2 md:p-5 hover:bg-orange-400">
-          <a href="#">BOOK NOW</a>
+          <a href="https://wa.me/+2349031832073">BOOK NOW</a>
         </div>
       </div>
     </div>

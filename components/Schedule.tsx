@@ -25,7 +25,7 @@ export default function Schedule() {
             </div>
             <div className="hidden lg:block m-auto text-sm">OR</div>
             <div className="slow w-fit m-auto shadow-md rounded-xl bg-blue-800 text-white p-2 hover:bg-orange-400">
-              <a href="#">GET A SCHEDULE</a>
+              <a href="https://wa.me/+2349031832073">GET A SCHEDULE</a>
             </div>
           </div>
         </div>

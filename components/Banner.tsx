@@ -1,11 +1,11 @@
 
 export default function Banner() {
   return (
-    <div className="lg:flex bg-gradient-to-br">
+    <div className="lg:flex">
       <div>
         <h1 className="text-5xl lg:text-7xl font-bold mb-5">
           Trusted <span className=" text-blue-800"> Computer </span> &{" "}
-          <span className=" text-blue-800"> Laptop </span> Repair Experts!
+          <span className=" text-blue-800"> Smartphone </span> Repair Experts!
         </h1>
         <p className="my-5">
           Our skilled technicians are dedicated to restoring your devices to
@@ -14,7 +14,7 @@ export default function Banner() {
         </p>
 
         <div className="slow border rounded-xl bg-blue-800 hover:bg-orange-400 text-white p-2 w-fit">
-          <a href="#">GET A SCHEDULE</a>
+          <a href="https://wa.me/+2349031832073">GET A SCHEDULE</a>
         </div>
       </div>
       <div className="slow border-4 border-orange-400 rounded-br-[100px] hover:rounded-l-[300px] my-3 w-full h-[400px] overflow-hidden">
