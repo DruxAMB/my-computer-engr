@@ -9,7 +9,7 @@ export default function NavBar() {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="fixed top-0 w-full">
+    <div className="fixed top-0 z-50 w-full">
       <div
         className={`slow bg-white flex items-center justify-between lg:justify-around lg:px-12 py-2 border-b-2 w-full`}
       >

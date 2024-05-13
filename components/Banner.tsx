@@ -5,12 +5,10 @@ export default function Banner() {
       <div>
         <h1 className="text-5xl lg:text-7xl font-bold mb-5">
           Trusted <span className=" text-blue-800"> Computer </span> &{" "}
-          <span className=" text-blue-800"> Smartphone </span> Repair Experts!
+          <span className=" text-blue-800"> Smartphone </span> Repair Expert!
         </h1>
         <p className="my-5">
-          Our skilled technicians are dedicated to restoring your devices to
-          their optimal functionality, ensuring you stay connected in todays
-          fast-paced digital world.
+          We offer on demand repair service. To save you stress, we can come to your office to do the repair or pick your gadget up at your location.
         </p>
 
         <div className="slow border rounded-xl bg-blue-800 hover:bg-orange-400 text-white p-2 w-fit">

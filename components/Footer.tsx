@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import BackgroundAnimation from "./BackgroundAnimation";
 
 export default function Footer() {
   return (
-    <div>
-      <div className="slow bg-gradient-to-br from-blue-950 to-blue-900 text-white items-center justify-around p-20 px-3 md:px-5 lg:px-24 border-t-2 mt-5">
+    <div className="relative">
+      <div className="slow text-white items-center justify-around p-20 px-3 md:px-5 lg:px-24 border-t-2 mt-5">
         <div className="lg:flex justify-between w-full">
           <div className="grid gap-2">
             <a href="#">
@@ -20,13 +21,13 @@ export default function Footer() {
               their optimal functionality.
             </p>
           </div>
-          <div className="flex gap-2 my-10 lg:m-0">
+          <div className="flex group gap-2 my-10 lg:m-0">
             <Image
               src="/icons/location.svg"
               alt="location"
               width={40}
               height={40}
-              className="p-3 w-14  h-14 bg-[#ffffff34] slow rounded-full hover:bg-white"
+              className="p-3 w-14  h-14 bg-[#ffffff34] slow rounded-full group-hover:bg-white"
             />
             <div>
               <p>Location:</p>
@@ -92,10 +93,10 @@ export default function Footer() {
               <p className="text-orange-400">Urgent Support?</p>
               <p>
                 <a
-                  href="tel:+2348160122610"
+                  href="tel:+2349031832073"
                   className="slow hover:text-orange-400 slow"
                 >
-                  081-6012-2610
+                  090-3183-2073
                 </a>
               </p>
             </div>
@@ -204,14 +205,14 @@ export default function Footer() {
         <p className="text-center text-sm text-white">
           &copy; myComputerENGR. All Rights Reserved by{" "}
           <span className="text-orange-400">
-            <a
-              className="slow hover:underline hover:text-blue-800"
-              href="https://druxamb.github.io/DruxAMB-Portfolio/"
-            >
-              Dev DruxAMB
+            <a className="slow hover:underline hover:text-blue-800" href="#">
+              myComputerENGR
             </a>
           </span>
         </p>
+      </div>
+      <div className="w-full h-full absolute -z-50 top-0 bg-gradient-to-br from-blue-950 to-blue-900">
+        <BackgroundAnimation />
       </div>
     </div>
   );

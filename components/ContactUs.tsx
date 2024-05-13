@@ -17,11 +17,11 @@ export default function ContactUs() {
       <div className="grid gap-4 md:gap-8 h-fit">
         <div className="flex h-fit">
           <Image src="/icons/star.svg" alt="star" width={20} height={20} />
-          <p className="mx-2 text-orange-400 text-sm">BOOK A SCHEDULE</p>
+          <p className="mx-2 text-orange-400 text-sm">FIX MY GADGET</p>
           <Image src="/icons/star.svg" alt="star" width={20} height={20} />
         </div>
         <h1 className="text-2xl md:text-4xl font-bold lg:w-[500px]">
-          Schedule Expert Repairs Instantly
+          Chat With Us Now
         </h1>
         <div className="grid grid-cols-4 gap-2 w-full md:w-fit">
           <div className="items-center">
@@ -67,7 +67,7 @@ export default function ContactUs() {
           </div>
           <div>
             <p className="text-orange-400">Urgent Support?</p>
-            <p><a href="tel:+2348160122610">081-6012-2610</a></p>
+            <p><a href="tel:+2349031832073">090-3183-2073</a></p>
           </div>
         </div>
 

@@ -21,10 +21,13 @@ export default function About() {
           <Image src="/icons/star.svg" alt="star" width={20} height={20} />
         </div>
         <h1 className="text-2xl md:text-4xl font-bold lg:w-[500px]">
-          Empowering Your Devices: Crafting Solutions
+          SAFETY IS HERE
         </h1>
         <p>
-          SAFETY IS HERE: Genuine, warrantied replacement parts
+          Free checkup <br />
+          Genuine, warrantied replacement parts <br />
+          Fast, efficient repair <br />
+          Ensured data privacy
         </p>
         <div className="grid grid-cols-2 gap-4">
           <div className="flex gap-2 items-center">
@@ -45,7 +48,7 @@ export default function About() {
               width={50}
               className="slow p-2 rounded-lg bg-orange-100 hover:bg-orange-400"
             />
-            <p>Quality Repairs</p>
+            <p>Quality Repair</p>
           </div>
           <div className="flex gap-2 items-center">
             <Image

@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import BackgroundAnimation from "./BackgroundAnimation";
 
 export default function WhyUs() {
   return (
-    <div id="WHYUS">
-      <div className="lg:flex bg-gradient-to-br from-orange-500 to-orange-600 w-full rounded-xl p-3 lg:px-20 lg:py-14 text-white">
+    <div id="WHYUS" className="relative">
+      <div className="lg:flex w-full p-3 lg:px-20 lg:py-14 text-white">
         <div className="grid gap-10 lg:w-72 h-fit mx-auto my-5 lg:my-auto lg:mx-0 text-center lg:text-start">
           <div className="grid gap-3">
             <div className="flex m-auto lg:m-0">
@@ -12,7 +13,7 @@ export default function WhyUs() {
               <p className="mx-2 text-sm">EXCEPTIONAL SERVICE</p>
               <Image src="/icons/star.svg" alt="star" width={20} height={20} />
             </div>
-            <p className="text-2xl md:text-4xl">Why We Are Best From Others</p>
+            <p className="text-2xl md:text-4xl">We Can Be Your Sure Plug</p>
           </div>
 
           <div className="slow m-auto lg:m-0 w-fit h-fit shadow-md rounded-xl border text-white p-2 hover:bg-blue-800 hover:border-blue-800">
@@ -32,8 +33,9 @@ export default function WhyUs() {
             <div className="lg:w-72">
               <h1 className="font-bold text-lg text">Fast Delivery</h1>
               <p className=" font-thin">
-                Fast repair requiring additional attention, a guaranteed 24-hour
-                turnaround ensures devices are returned promptly
+                We offer less time as a repair can be done on the spot, or we
+                pick your gadget at your office, fix it, and return within 24
+                hours
               </p>
             </div>
           </div>
@@ -46,10 +48,11 @@ export default function WhyUs() {
               className="p-3 bg-blue-800 rounded-lg h-14"
             />
             <div className="lg:w-72">
-              <h1 className="font-bold text-lg text">Free Diagnotics</h1>
+              <h1 className="font-bold text-lg text">Free Diagnotic</h1>
               <p className=" font-thin">
-                We prioritize your data protection, ensuring all repairs are
-                conducted with the utmost security and privacy
+                We ensure security and privacy. We prioritize your data
+                protection by ensuring all repairs are conducted with utmost
+                security and privacy
               </p>
             </div>
           </div>
@@ -64,12 +67,16 @@ export default function WhyUs() {
             <div className="lg:w-72">
               <h1 className="font-bold text-lg text">Quick Repair Process</h1>
               <p className=" font-thin">
-                I cant thank Stada enough for saving my computer! Their team
-                worked tirelessly to recover my files and fix the software.
+                We repair all Apple products: Whether software or hardware,
+                including iPhone, Mackbook, iMac, iWatch, etc.
               </p>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="w-full rounded-xl h-full absolute -z-50 top-0 bg-gradient-to-br from-orange-500 to-orange-600">
+        <BackgroundAnimation />
       </div>
     </div>
   );

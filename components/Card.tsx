@@ -21,7 +21,7 @@ export default function Card() {
         </div>
       </div>
       <div className="slow hover:bg-orange-50 cursor-pointer hover:mb-5 grid gap-3 border border-orange-200 hover:border-orange-400 rounded-xl p-3 shadow-lg">
-        <p className="text-xl">SmarPhones Repair</p>
+        <p className="text-xl">SmarPhone Repair</p>
         <img
           src="/images/selecet-device-2.webp"
           alt="repair"
@@ -30,8 +30,7 @@ export default function Card() {
           className="w-full"
         />
         <p className="font-thin">
-          Our technicians are highly skilled and stay up-to-date with the latest
-          technologies to provide you with the best solutions.
+          We replace with genuine spare parts, including screen, battery, charging panel, camera, and power switch
         </p>
 
         <div className="slow border rounded-xl bg-blue-800 hover:bg-orange-400 text-white p-2 w-fit">
@@ -39,9 +38,9 @@ export default function Card() {
         </div>
       </div>
       <div className="slow hover:bg-orange-50 cursor-pointer hover:mb-5 grid gap-3 border border-orange-200 hover:border-orange-400 rounded-xl p-3 shadow-lg">
-        <p className="text-xl">Laptop Repair</p>
+        <p className="text-xl">Apple Repair</p>
         <img
-          src="/images/selecet-device-1.webp"
+          src="/images/selecet-device-3.webp"
           alt="repair"
           height={100}
           width={100}
