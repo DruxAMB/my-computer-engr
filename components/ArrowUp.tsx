@@ -22,7 +22,7 @@ export default function ArrowUp() {
   return (
     <div>
       {scrolledDown && (
-        <a href="#" className="fixed bottom-5 right-5">
+        <a href="#" className="fixed bottom-5 right-5 z-50">
           <Image
             src="/icons/up-arrow.svg"
             alt="arrowUp"

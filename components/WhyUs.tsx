@@ -48,11 +48,12 @@ export default function WhyUs() {
               className="p-3 bg-blue-800 rounded-lg h-14"
             />
             <div className="lg:w-72">
-              <h1 className="font-bold text-lg text">Free Diagnotic</h1>
+              <h1 className="font-bold text-lg text">
+                We Ensure Security and Privacy
+              </h1>
               <p className=" font-thin">
-                We ensure security and privacy. We prioritize your data
-                protection by ensuring all repairs are conducted with utmost
-                security and privacy
+                We prioritize your data protection by ensuring no peeping or
+                access to your personal data while we work on your gadget.{" "}
               </p>
             </div>
           </div>
@@ -68,7 +69,7 @@ export default function WhyUs() {
               <h1 className="font-bold text-lg text">Quick Repair Process</h1>
               <p className=" font-thin">
                 We repair all Apple products: Whether software or hardware,
-                including iPhone, Mackbook, iMac, iWatch, etc.
+                including iPhone, Macbook, iMac, iWatch, etc.
               </p>
             </div>
           </div>

@@ -21,7 +21,7 @@ export default function Schedule() {
                 />
               </div>
               <span className="text-orange-400 text-2xl">
-                081-6012-2610
+              090-3183-2073
               </span>
             </div>
             <div className="hidden lg:block m-auto text-sm">OR</div>

@@ -4,7 +4,7 @@ import React from "react";
 export default function ContactUs() {
   return (
     <div id="CONTACTUS" className="grid lg:grid-cols-2 grid-flow-row gap-5 my-5">
-      <div className="slow border-4 border-orange-400 rounded-br-[100px] hover:rounded-t-[300px] m-auto w-full h-[450px] overflow-hidden">
+      <div className="slow border-4 border-orange-400 rounded-br-[100px] hover:rounded-t-[300px] m-auto w-full h-[300px] md:h-[400px] overflow-hidden">
         <img
           src="/images/about-person.png"
           alt="person"

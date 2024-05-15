@@ -21,7 +21,7 @@ export default function Card() {
         </div>
       </div>
       <div className="slow hover:bg-orange-50 cursor-pointer hover:mb-5 grid gap-3 border border-orange-200 hover:border-orange-400 rounded-xl p-3 shadow-lg">
-        <p className="text-xl">SmarPhone Repair</p>
+        <p className="text-xl">SmartPhone Repair</p>
         <img
           src="/images/selecet-device-2.webp"
           alt="repair"

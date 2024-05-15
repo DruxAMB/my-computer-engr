@@ -15,7 +15,7 @@ export default function Banner() {
           <a href="https://wa.me/+2349031832073">GET A SCHEDULE</a>
         </div>
       </div>
-      <div className="slow border-4 border-orange-400 rounded-br-[100px] hover:rounded-l-[300px] my-3 w-full h-[400px] overflow-hidden">
+      <div className="slow border-4 border-orange-400 rounded-br-[100px] hover:rounded-l-[300px] my-3 w-full h-[300px] md:h-[400px] overflow-hidden">
         <img src="/images/man-repairing.png" alt="person" className="h-full w-full" />
       </div>
     </div>

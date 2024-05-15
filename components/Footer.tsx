@@ -78,7 +78,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="border border-[#ffffff2e] mt-10"></div>
+        <div className="border border-[#9a6b6b2e] mt-10"></div>
         <div className="mt-10 lg:flex gap-40">
           <div className="flex gap-2 mb-3 lg:m-0 w-full md:w-fit h-fit items-center rounded-full bg-[#ffffff34] p-5">
             <div className="bg-orange-400 rounded-full p-3">
@@ -170,15 +170,7 @@ export default function Footer() {
                   href="#SERVICES"
                   className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
                 >
-                  Computer Repair
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#SERVICES"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
-                >
-                  Data Recovery
+                  Apple align-items-center
                 </a>
               </li>
               <li>
