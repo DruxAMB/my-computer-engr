@@ -11,14 +11,14 @@ export default function NavBar() {
   return (
     <div className="fixed top-0 z-50 w-full">
       <div
-        className={`slow bg-white flex items-center justify-between lg:justify-around lg:px-12 py-2 border-b-2 w-full`}
+        className={`slow bg-white flex items-center justify-between px-4 md:px-20 lg:px-32 py-2 border-b-2 w-full`}
       >
         <a href="#">
           <div
             className={`${
               show
                 ? "absolute lg:relative z-50 w-full text-center lg:m-0 text-white lg:text-blue-800"
-                : " text-blue-800 ps-5"
+                : " text-blue-800"
             }`}
           >
             <h1 className="text-2xl font-extrabold">myComputerENGR</h1>

@@ -22,11 +22,6 @@ export default function RootLayout({
     >
       <body
         className={`${inter.className} scroll-smooth`}
-        style={{
-          background: "white",
-          color: "rgb(6, 6, 45)",
-          fontWeight: "600",
-        }}
       >
         <div>{children}</div>
       </body>

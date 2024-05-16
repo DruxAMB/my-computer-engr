@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <main>
       <NavBar />
-      <motion.div className="md:px-20 px-4 lg:px-32 mt-20">
+      <motion.div className="px-4 md:px-20 lg:px-32 mt-20">
         <AnimatePresence mode="popLayout" >
           {!isLoading && (
             <motion.div className="slow grid gap-12" initial={{scale: 0}} animate={{scale: 1}} transition={{duration: 2, ease: easeInOut}}>
