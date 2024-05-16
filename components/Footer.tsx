@@ -11,12 +11,12 @@ export default function Footer() {
             <a href="#">
               <div className="w-fit mx-auto mb-5 lg:m-0 text-orange-400">
                 <h1 className="text-2xl font-extrabold">myComputerENGR</h1>
-                <p className="text-xs font-thin text-end">
+                <p className="text-xs text-end">
                   Your trusted IT partner
                 </p>
               </div>
             </a>
-            <p className="font-thin w-96 text-sm">
+            <p className="w-96 text-sm">
               Our skilled technicians are dedicated to restoring your devices to
               their optimal functionality.
             </p>
@@ -107,7 +107,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Home
                 </a>
@@ -115,7 +115,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#SERVICES"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Services
                 </a>
@@ -123,7 +123,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#ABOUTUS"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   About Us
                 </a>
@@ -131,7 +131,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#WHYUS"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Why Us
                 </a>
@@ -139,7 +139,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#CONTACTUS"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Contact Us
                 </a>
@@ -147,7 +147,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://druxamb.github.io/DruxAMB-Portfolio/"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Developer
                 </a>
@@ -160,7 +160,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#SERVICES"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Laptop Repair
                 </a>
@@ -168,7 +168,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#SERVICES"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Apple align-items-center
                 </a>
@@ -176,7 +176,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#SERVICES"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Software Installation
                 </a>
@@ -184,7 +184,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#SERVICES"
-                  className="slow text-slate-200 hover:text-orange-400 font-thin text-sm"
+                  className="slow text-slate-200 hover:text-orange-400 text-sm"
                 >
                   Phone Repair
                 </a>

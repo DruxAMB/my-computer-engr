@@ -25,7 +25,7 @@ export default function NavBar() {
             <p
               className={`${
                 show ? "text-center" : "text-end"
-              } text-xs font-thin`}
+              } text-xs`}
             >
               Your trusted IT partner
             </p>
@@ -56,27 +56,27 @@ export default function NavBar() {
         <motion.ul className="hidden lg:flex w-3/6 justify-around">
           <a href="#"></a>
           <li className="slow hover:text-blue-800">
-            <a className="slow font-thin hover:underline" href="#">
+            <a className="slow hover:underline" href="#">
               HOME
             </a>
           </li>
           <li className="slow hover:text-blue-800">
-            <a className="slow font-thin hover:underline" href="#SERVICES">
+            <a className="slow hover:underline" href="#SERVICES">
               SERVICES
             </a>
           </li>
           <li className="slow hover:text-blue-800">
-            <a className="slow font-thin hover:underline" href="#ABOUT">
+            <a className="slow hover:underline" href="#ABOUT">
               ABOUT
             </a>
           </li>
           <li className="slow hover:text-blue-800">
-            <a className="slow font-thin hover:underline" href="#WHYUS">
+            <a className="slow hover:underline" href="#WHYUS">
               WHY US?
             </a>
           </li>
           <li className="slow hover:text-blue-800">
-            <a className="slow font-thin hover:underline" href="#CONTACTUS">
+            <a className="slow hover:underline" href="#CONTACTUS">
               CONTACT US
             </a>
           </li>
@@ -97,27 +97,27 @@ export default function NavBar() {
             >
               <a href="#"></a>
               <li className="slow hover:text-blue-800 text-lg">
-                <a className="slow font-thin hover:underline" href="#">
+                <a className="slow hover:underline" href="#">
                   HOME
                 </a>
               </li>
               <li className="slow hover:text-blue-800 text-lg">
-                <a className="slow font-thin hover:underline" href="#SERVICES">
+                <a className="slow hover:underline" href="#SERVICES">
                   SERVICES
                 </a>
               </li>
               <li className="slow hover:text-blue-800 text-lg">
-                <a className="slow font-thin hover:underline" href="#ABOUT">
+                <a className="slow hover:underline" href="#ABOUT">
                   ABOUT
                 </a>
               </li>
               <li className="slow hover:text-blue-800 text-lg">
-                <a className="slow font-thin hover:underline" href="#WHYUS">
+                <a className="slow hover:underline" href="#WHYUS">
                   WHY US?
                 </a>
               </li>
               <li className="slow hover:text-blue-800 text-lg">
-                <a className="slow font-thin hover:underline" href="#CONTACTUS">
+                <a className="slow hover:underline" href="#CONTACTUS">
                   CONTACT US
                 </a>
               </li>

@@ -12,7 +12,7 @@ export default function Card() {
           width={100}
           className="w-full"
         />
-        <p className="font-thin">
+        <p>
           We prioritize your data protection, ensuring all repairs are conducted with the utmost security and privacy
         </p>
 
@@ -29,7 +29,7 @@ export default function Card() {
           width={100}
           className="w-full"
         />
-        <p className="font-thin">
+        <p>
           We replace with genuine spare parts, including screen, battery, charging panel, camera, and power switch
         </p>
 
@@ -46,7 +46,7 @@ export default function Card() {
           width={100}
           className="w-full"
         />
-        <p className="font-thin">
+        <p>
           Fast repair requiring additional attention, a guaranteed 24-hour turnaround ensures devices are returned promptly
         </p>
 

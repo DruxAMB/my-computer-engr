@@ -32,7 +32,7 @@ export default function WhyUs() {
             />
             <div className="lg:w-72">
               <h1 className="font-bold text-lg text">Fast Delivery</h1>
-              <p className=" font-thin">
+              <p>
                 We offer less time as a repair can be done on the spot, or we
                 pick your gadget at your office, fix it, and return within 24
                 hours
@@ -51,7 +51,7 @@ export default function WhyUs() {
               <h1 className="font-bold text-lg text">
                 We Ensure Security and Privacy
               </h1>
-              <p className=" font-thin">
+              <p>
                 We prioritize your data protection by ensuring no peeping or
                 access to your personal data while we work on your gadget.{" "}
               </p>
@@ -67,7 +67,7 @@ export default function WhyUs() {
             />
             <div className="lg:w-72">
               <h1 className="font-bold text-lg text">Quick Repair Process</h1>
-              <p className=" font-thin">
+              <p>
                 We repair all Apple products: Whether software or hardware,
                 including iPhone, Macbook, iMac, iWatch, etc.
               </p>

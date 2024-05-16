@@ -71,7 +71,7 @@ export default function About() {
             <p>Good Ratings</p>
           </div>
         </div>
-        <p className="font-thin">
+        <p>
           We perform thorough quality checks before laptops and smartphones are returned.
           Fast, efficient repairs to minimize downtime. Swift mobile service, facilitated with bikes for quick delivery of repair services to your office or home. Please <span className=" font-bold"><a href="https://wa.me/+2349031832073"> GET A SCHEDULE</a></span> today to learn more, thank you :)....
         </p>
